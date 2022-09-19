@@ -1,0 +1,51 @@
+﻿@model IEnumerable<MovieTheatreWebApp.Models.Ticket>
+
+<h1>Your Booking Tickets</h1>
+
+<p>
+    <a asp-action="Create" class=" btn btn-secondary">BookTicket</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TheatreName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NoOfSeat)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WhoAdded)
+            </th>
+         
+            
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TheatreName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NoOfSeat)
+                </td>
+                
+                    
+                    <input type="hidden" value="@item.WhoAdded" name="WhoAdded">
+                
+               
+                <td>
+                    <button value="@item.Id"  class=" btn btn-danger">Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

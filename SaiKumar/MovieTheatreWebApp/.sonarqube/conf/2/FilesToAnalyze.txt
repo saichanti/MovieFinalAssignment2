@@ -1,0 +1,11 @@
+﻿C:\Users\Tej\Downloads\SaiKumar\TheatreMovieApi\Controllers\MoviesController.cs
+C:\Users\Tej\Downloads\SaiKumar\TheatreMovieApi\Controllers\TheatreController.cs
+C:\Users\Tej\Downloads\SaiKumar\TheatreMovieApi\Controllers\TicketController.cs
+C:\Users\Tej\Downloads\SaiKumar\TheatreMovieApi\Program.cs
+C:\Users\Tej\Downloads\SaiKumar\TheatreMovieApi\obj\Debug\net6.0\TheatreMovieApi.GlobalUsings.g.cs
+C:\Users\Tej\Downloads\SaiKumar\TheatreMovieApi\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+C:\Users\Tej\Downloads\SaiKumar\TheatreMovieApi\obj\Debug\net6.0\TheatreMovieApi.AssemblyInfo.cs
+C:\Users\Tej\Downloads\SaiKumar\TheatreMovieApi\obj\Debug\net6.0\TheatreMovieApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Tej\Downloads\SaiKumar\TheatreMovieApi\appsettings.Development.json
+C:\Users\Tej\Downloads\SaiKumar\TheatreMovieApi\appsettings.json
+C:\Users\Tej\Downloads\SaiKumar\TheatreMovieApi\Properties\launchSettings.json

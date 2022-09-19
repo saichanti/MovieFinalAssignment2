@@ -1,0 +1,7 @@
+﻿C:\Users\Tej\Downloads\SaiKumar\TheatreMovieClassLibrary\Data\ApiApplicationDbContext.cs
+C:\Users\Tej\Downloads\SaiKumar\TheatreMovieClassLibrary\Data\Migrations\20220916042831_ApiMigration.cs
+C:\Users\Tej\Downloads\SaiKumar\TheatreMovieClassLibrary\Data\Migrations\20220916042831_ApiMigration.Designer.cs
+C:\Users\Tej\Downloads\SaiKumar\TheatreMovieClassLibrary\Data\Migrations\ApiApplicationDbContextModelSnapshot.cs
+C:\Users\Tej\Downloads\SaiKumar\TheatreMovieClassLibrary\Models\Movie.cs
+C:\Users\Tej\Downloads\SaiKumar\TheatreMovieClassLibrary\Models\Theater.cs
+C:\Users\Tej\Downloads\SaiKumar\TheatreMovieClassLibrary\Models\Ticket.cs

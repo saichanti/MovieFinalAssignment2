@@ -1,0 +1,82 @@
+﻿@model MovieTheatreWebApp.Models.Ticket
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var name = ViewBag.WhoAdded;
+    var movieName = ViewBag.Movies;
+    var theatreName = ViewBag.Theatres;
+}
+
+<h1 >BookMyShow</h1>
+
+<h4>Ticket</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group" style="margin-bottom:20px">
+               @* <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+
+                <span asp-validation-for="Title" class="text-danger"></span>*@
+                <label for="Title" class="control-label">Movie Name</label>
+                <select name="Title" readonly class="form-control">
+                    Select Movie Name
+                    @{
+                        foreach (var mname in movieName)
+                        {
+                            <option value="@mname">@mname</option>
+                        }
+                    }
+                </select>
+            </div>
+            <div class="form-group" style="margin-bottom:20px">
+
+                @*<label asp-for="TheatreName" class="control-label"></label>
+                <input asp-for="TheatreName" class="form-control" />
+                <span asp-validation-for="TheatreName" class="text-danger"></span>*@
+                <label for="Title" class="control-label">Theater Name</label>
+                <select name="TheatreName" readonly class="form-control">
+                    Select Theatre Name
+                    @{
+                        foreach (var tname in theatreName)
+                        {
+                            <option value="@tname">@tname</option>
+                        }
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="NoOfSeat" class="control-label"></label>
+                <input asp-for="NoOfSeat" class="form-control" />
+                <span asp-validation-for="NoOfSeat" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+               @* <label asp-for="WhoAdded" class="control-label"></label>
+                <input asp-for="WhoAdded" class="form-control" />
+                <span asp-validation-for="WhoAdded" class="text-danger"></span>*@
+                <input type="hidden" name="WhoAdded" value="@name" />
+            </div>
+            <div class="form-group">
+                @*<label asp-for="Status" class="control-label"></label>
+                <input asp-for="Status" class="form-control" />
+                <span asp-validation-for="Status" class="text-danger"></span>*@
+                <input type="hidden" name="Status" value="1" />
+
+            </div>
+            <div class="form-group" style="margin-bottom:20px">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

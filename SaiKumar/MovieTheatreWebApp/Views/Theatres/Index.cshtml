@@ -1,0 +1,35 @@
+﻿@model IEnumerable<MovieTheatreWebApp.Models.Theatre>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@await Html.PartialAsync("_Theatre.cshtml",Model);
+<script>
+    $(document).ready(function () {
+        $('button').click(function () {
+            var delid = $(this).val();
+
+
+            if(delid!=''){
+                if (confirm("Do you really want to delete record?")) {
+                    // AJAX Request
+                    $(this).closest("tr").remove();
+
+                    console.log("i m inside");
+                    $.ajax({
+                        type: 'DELETE',
+                        url: 'https://localhost:7247/Theatre/Delete?id=' + delid,
+                        success: function (response) {
+                            $(this).parent().parent().remove();
+                        }
+                    });
+                }
+            }
+
+        });
+
+
+    });
+</script>

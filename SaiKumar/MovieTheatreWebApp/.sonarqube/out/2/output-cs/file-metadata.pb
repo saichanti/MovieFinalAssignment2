@@ -1,0 +1,9 @@
+X
+OC:\Users\Tej\Downloads\SaiKumar\TheatreMovieApi\Controllers\MoviesController.csutf-8Y
+PC:\Users\Tej\Downloads\SaiKumar\TheatreMovieApi\Controllers\TheatreController.csutf-8X
+OC:\Users\Tej\Downloads\SaiKumar\TheatreMovieApi\Controllers\TicketController.csutf-8C
+:C:\Users\Tej\Downloads\SaiKumar\TheatreMovieApi\Program.csutf-8m
+bC:\Users\Tej\Downloads\SaiKumar\TheatreMovieApi\obj\Debug\net6.0\TheatreMovieApi.GlobalUsings.g.csutf-8z
+oC:\Users\Tej\Downloads\SaiKumar\TheatreMovieApi\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8k
+`C:\Users\Tej\Downloads\SaiKumar\TheatreMovieApi\obj\Debug\net6.0\TheatreMovieApi.AssemblyInfo.csutf-8~
+sC:\Users\Tej\Downloads\SaiKumar\TheatreMovieApi\obj\Debug\net6.0\TheatreMovieApi.MvcApplicationPartsAssemblyInfo.csutf-8
